@@ -20,7 +20,8 @@ function App() {
           <p>
             Boleta: <strong>2021640284</strong>
           </p>
-          <Saludo/> {/* Notacion estricta*/ }
+         { /* <Saludo/>  Notacion estricta*/ }
+          <Saludo Nombre = 'Rojo' Tipo = 'dias'></Saludo>
         </div>
       </section>
 

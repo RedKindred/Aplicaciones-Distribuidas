@@ -9,7 +9,7 @@ function Saludo(props: any) {
       <section id="center">
         
         <div>
-          <p>Buenos dias {props.Nombre}</p>
+          <p>Buenos {props.Tipo} {props.Nombre}</p>
           <p>
             <strong>Hace sueño</strong>
           </p>
