@@ -1,7 +1,7 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import Saludo from './saludo.tsx'
 import './App.css'
 
 function App() {
@@ -15,11 +15,12 @@ function App() {
         </div>
         
         <div>
-          {/* Aquí pones tu nombre */}
+          {/* Nombre */}
           <h1>Kevin Juarez Rojo</h1>
           <p>
             Boleta: <strong>2021640284</strong>
           </p>
+          <Saludo/> {/* Notacion estricta*/ }
         </div>
       </section>
 
