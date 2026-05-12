@@ -1,15 +1,15 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from './assets/vite.svg'
 //import heroImg from './assets/hero.png'
-import './App.css'
+//import './App.css'
 
-function Saludo() {
+function Saludo(props: any) {
   return (
     <>
       <section id="center">
         
         <div>
-          <h1>Buenos dias</h1>
+          <p>Buenos dias {props.Nombre}</p>
           <p>
             <strong>Hace sueño</strong>
           </p>
